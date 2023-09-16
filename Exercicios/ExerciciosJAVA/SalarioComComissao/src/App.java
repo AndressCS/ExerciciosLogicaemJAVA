@@ -1,16 +1,7 @@
-
-package SalarioComComissao;
-
 import java.util.Scanner;
 
-/**
- *
- * @author Andress
- */
-public class JavaApplication9 {
-
-    public static void main(String[] args) {
-              
+public class App {
+    public static void main(String[] args) throws Exception {
         Scanner teclado = new Scanner(System.in);
         
         System.out.println("-----------------------");
@@ -31,7 +22,5 @@ public class JavaApplication9 {
         System.out.println("Total de Vendas R$: " + com);
         System.out.println("Salarío com Comissão: " + c);
         
-
     }
-    
 }
