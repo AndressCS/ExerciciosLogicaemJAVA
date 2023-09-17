@@ -15,7 +15,7 @@ public class App {
         System.out.print("Digite o Total de Vendas em R$: ");
         float com = teclado.nextFloat();
         
-        double c = 15*com/100 + sal;
+        float c = 15*com/100 + sal;
         
         System.out.println("Nome: " + nome);
         System.out.println("Salario: " + sal);
