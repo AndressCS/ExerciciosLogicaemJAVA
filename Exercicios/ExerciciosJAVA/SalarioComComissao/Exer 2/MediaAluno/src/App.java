@@ -8,14 +8,21 @@ public class App {
         System.out.print("Digite o nome do Aluno: ");
         String aluno = teclado.nextLine();
         
-        int i = 1;
-        float[] nota = new float[3];
-        
+        System.out.println("Digite a Primeira NOTA: ");
+        float n1 = teclado.nextInt();
 
-        while(i <= 3) {
-            System.out.print("Qual é a " + i + "º Nota? ");
-            nota[i] = teclado.nextFloat();         
-            i++;
+        System.out.println("Digite a Segunda NOTA: ");
+        float n2 = teclado.nextInt();
+
+        System.out.println("Digite a Terceira NOTA: ");
+        float n3 = teclado.nextInt();
+
+        float r = (n1 + n2 + n3) / 3;
+
+        if (r >= 6) {
+            System.out.println("Parabéns " + aluno + " Sua Medía Foi " + r + " Você foi Aprovado!");
+        }else{
+            System.out.println(aluno + ", Sua Medía foi " + r + " Você Foi Reprovado!");
         }
         
         
